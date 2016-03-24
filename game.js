@@ -32,7 +32,7 @@ var requestAnimFrame =  window.requestAnimationFrame ||
                         };
 var enemies = [];
 var imgSprite = new Image();
-imgSprite.src = 'images/sprite.png';
+imgSprite.src = 'sprite.png';
 imgSprite.addEventListener('load', init, false);
 
 // main functions
